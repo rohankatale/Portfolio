@@ -47,11 +47,18 @@ export const ContactSection: React.FC = () => {
       // EmailJS configuration from environment variables
       const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
       const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-      const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+      let publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
       if (!serviceId || !templateId || !publicKey) {
         throw new Error('EmailJS configuration is missing. Please check your environment variables.');
       }
+
+      // Remove leading minus sign if present (common issue)
+      if (publicKey.startsWith('-')) {
+        publicKey = publicKey.substring(1);
+      }
+
+      console.log('EmailJS Config:', { serviceId, templateId, publicKey: publicKey.substring(0, 5) + '...' });
 
       await emailjs.send(
         serviceId,
@@ -67,6 +74,7 @@ export const ContactSection: React.FC = () => {
       setSubmitStatus('success');
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
+      console.error('EmailJS Error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);

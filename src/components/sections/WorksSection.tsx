@@ -279,7 +279,7 @@ const ProjectSection: React.FC<{ project: Project; index: number }> = ({ project
                     className="inline-flex items-center space-x-2 text-white hover:text-blue-100 transition-all duration-300 text-sm font-semibold bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded-lg"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m-9 9a9 9 0 919-9" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m-9 9a9 9 0 01 9-9" />
                     </svg>
                     <span>Demo</span>
                   </a>
@@ -358,7 +358,7 @@ const MobileProjectSection: React.FC<{ project: Project; index: number }> = ({ p
                   className="inline-flex items-center space-x-2 text-white hover:text-blue-100 transition-all duration-300 text-sm font-semibold bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded-lg"
                 >
                   <svg className="w-4 h-4 text-blue-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m-9 9a9 9 0 919-9" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m-9 9a9 9 0 01 9-9" />
                   </svg>
                   <span>Demo</span>
                 </a>
