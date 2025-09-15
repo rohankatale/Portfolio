@@ -44,16 +44,16 @@ export const ContactSection: React.FC = () => {
     setIsSubmitting(true);
     
     try {
-      // TODO: Replace with your EmailJS service ID, template ID, and user ID from your EmailJS account
+      // EmailJS configuration from environment variables
       await emailjs.send(
-        'service_a0i9bca', // Found in EmailJS > Email Services
-        'template_8ctqhgc', // Found in EmailJS > Email Templates
+        process.env.REACT_APP_EMAILJS_SERVICE_ID || 'service_a0i9bca',
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID || 'template_8ctqhgc',
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        '-xVGWN53vm_Ts3YIZ' // Found in EmailJS > Account > API Keys
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY || '-xVGWN53vm_Ts3YIZ'
       );
       
       setSubmitStatus('success');
