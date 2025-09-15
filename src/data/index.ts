@@ -49,7 +49,7 @@ export const projects: Project[] = [
 		type: 'desktop',
 		technologies: ['Java', 'Spring Boot', 'Spring Cloud', 'PostgreSQL', 'Maven', 'Eureka', 'JUnit'],
 		liveUrl: 'https://microservices-quiz-demo.herokuapp.com',
-		githubUrl: 'https://github.com/rohankatlae/Microservices-BasedQuizApplication',
+		githubUrl: 'https://github.com/rohankatale/Microservices-BasedQuizApplication',
 	},
 	{
 		id: 'event-booking-api',
@@ -61,7 +61,7 @@ export const projects: Project[] = [
 		type: 'desktop',
 		technologies: ['Golang', 'Gin', 'SQLite', 'JWT', 'bcrypt', 'REST API'],
 		liveUrl: 'https://event-booking-api-demo.herokuapp.com',
-		githubUrl: 'https://github.com/rohankatlae/Event_Booking',
+		githubUrl: 'https://github.com/rohankatale/Event_Booking',
 	},
 	{
 		id: 'cloud-threat-detection',
@@ -73,7 +73,7 @@ export const projects: Project[] = [
 		type: 'desktop',
 		technologies: ['Python', 'TensorFlow', 'Keras', 'AWS EC2', 'Machine Learning', 'Cybersecurity'],
 		liveUrl: '',
-		githubUrl: 'https://github.com/rohankatlae/CloudThreatDetectionUsingML',
+		githubUrl: 'https://github.com/rohankatale/CloudThreatDetectionUsingML',
 	},
 	
 ];
@@ -126,7 +126,7 @@ export const contactInfo = {
 	phone: '+91 7666789857',
 	location: 'Pune, India',
 	social: { 
-		github: 'https://github.com/rohankatlae', 
+		github: 'https://github.com/rohankatale', 
 		linkedin: 'https://www.linkedin.com/in/rohan-katlae-94574a257/', 
 		instagram: 'https://www.instagram.com/rohan_k49/' 
 	},
