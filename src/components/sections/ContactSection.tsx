@@ -45,15 +45,23 @@ export const ContactSection: React.FC = () => {
     
     try {
       // EmailJS configuration from environment variables
+      const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+      const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+      const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
+      if (!serviceId || !templateId || !publicKey) {
+        throw new Error('EmailJS configuration is missing. Please check your environment variables.');
+      }
+
       await emailjs.send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID || 'service_a0i9bca',
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID || 'template_8ctqhgc',
+        serviceId,
+        templateId,
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY || '-xVGWN53vm_Ts3YIZ'
+        publicKey
       );
       
       setSubmitStatus('success');
