@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#codeGrad)"/>
+  
+  <!-- Code Editor Window -->
+  <rect x="200" y="150" width="800" height="600" fill="#1e293b" rx="10"/>
+  <rect x="200" y="150" width="800" height="40" fill="#334155" rx="10 10 0 0"/>
+  <circle cx="230" cy="170" r="6" fill="#ef4444"/>
+  <circle cx="250" cy="170" r="6" fill="#f59e0b"/>
+  <circle cx="270" cy="170" r="6" fill="#10b981"/>
+  
+  <!-- Code Lines -->
+  <rect x="220" y="210" width="60" height="12" fill="#3b82f6" rx="2"/>
+  <rect x="290" y="210" width="200" height="12" fill="#e5e7eb" rx="2"/>
+  <rect x="500" y="210" width="80" height="12" fill="#f59e0b" rx="2"/>
+  
+  <rect x="240" y="240" width="150" height="12" fill="#10b981" rx="2"/>
+  <rect x="400" y="240" width="30" height="12" fill="#e5e7eb" rx="2"/>
+  <rect x="440" y="240" width="100" height="12" fill="#8b5cf6" rx="2"/>
+  
+  <rect x="220" y="270" width="80" height="12" fill="#ef4444" rx="2"/>
+  <rect x="310" y="270" width="180" height="12" fill="#e5e7eb" rx="2"/>
+  
+  <rect x="240" y="300" width="120" height="12" fill="#06b6d4" rx="2"/>
+  <rect x="370" y="300" width="200" height="12" fill="#e5e7eb" rx="2"/>
+  
+  <!-- Terminal Window -->
+  <rect x="1050" y="300" width="600" height="400" fill="#000000" rx="10"/>
+  <rect x="1050" y="300" width="600" height="30" fill="#1f2937" rx="10 10 0 0"/>
+  <text x="1070" y="320" fill="#10b981" font-size="12" font-family="monospace">Terminal</text>
+  
+  <!-- Terminal Lines -->
+  <text x="1070" y="360" fill="#10b981" font-size="14" font-family="monospace">$ npm install</text>
+  <text x="1070" y="380" fill="#e5e7eb" font-size="14" font-family="monospace">✓ packages installed</text>
+  <text x="1070" y="400" fill="#10b981" font-size="14" font-family="monospace">$ npm run dev</text>
+  <text x="1070" y="420" fill="#e5e7eb" font-size="14" font-family="monospace">Local: http://localhost:3000</text>
+  <text x="1070" y="440" fill="#10b981" font-size="14" font-family="monospace">$ _</text>
+  
+  <!-- Floating Code Elements -->
+  <rect x="300" y="800" width="120" height="80" fill="#1e293b" rx="8" opacity="0.9"/>
+  <text x="310" y="820" fill="#3b82f6" font-size="10" font-family="monospace">function</text>
+  <text x="310" y="835" fill="#e5e7eb" font-size="10" font-family="monospace">createApp()</text>
+  <text x="310" y="850" fill="#10b981" font-size="10" font-family="monospace">return app</text>
+  
+  <text x="960" y="950" text-anchor="middle" fill="#10b981" font-size="32" font-family="monospace">Development</text>
+</svg>

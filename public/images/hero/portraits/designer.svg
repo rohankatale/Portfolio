@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="portraitGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#portraitGrad1)"/>
+  
+  <!-- Face Shape -->
+  <ellipse cx="300" cy="250" rx="120" ry="140" fill="#deb887"/>
+  
+  <!-- Glasses -->
+  <circle cx="250" cy="220" r="35" fill="none" stroke="#333" stroke-width="4"/>
+  <circle cx="350" cy="220" r="35" fill="none" stroke="#333" stroke-width="4"/>
+  <line x1="285" y1="220" x2="315" y2="220" stroke="#333" stroke-width="4"/>
+  
+  <!-- Eyes -->
+  <circle cx="250" cy="220" r="8" fill="#333"/>
+  <circle cx="350" cy="220" r="8" fill="#333"/>
+  
+  <!-- Nose -->
+  <path d="M300 240 L295 260 L300 265 L305 260 Z" fill="#cd853f"/>
+  
+  <!-- Mouth -->
+  <path d="M280 300 Q300 315 320 300" fill="none" stroke="#333" stroke-width="3"/>
+  
+  <!-- Hair -->
+  <path d="M180 180 Q300 120 420 180 Q410 200 400 220 Q350 160 300 160 Q250 160 200 220 Q190 200 180 180" fill="#654321"/>
+  
+  <!-- Designer Expression -->
+  <text x="300" y="500" text-anchor="middle" fill="white" font-size="24" font-family="Arial">Designer Mode</text>
+</svg>

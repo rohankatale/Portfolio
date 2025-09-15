@@ -1,0 +1,63 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1F2B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2f3441;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Cybersecurity Portfolio Display -->
+  <g transform="translate(50, 50)">
+    <!-- TryHackMe Badge -->
+    <rect x="50" y="80" width="200" height="100" rx="15" fill="#212C42" stroke="#88CC14" stroke-width="3"/>
+    <text x="150" y="110" text-anchor="middle" fill="#88CC14" font-family="Arial" font-size="16" font-weight="bold">TryHackMe</text>
+    <text x="150" y="130" text-anchor="middle" fill="#F1F1F1" font-family="Arial" font-size="14">Level 8</text>
+    <text x="150" y="150" text-anchor="middle" fill="#F1F1F1" font-family="Arial" font-size="14">Top 7%</text>
+    
+    <!-- Google Certificate -->
+    <rect x="300" y="80" width="200" height="100" rx="15" fill="#4285F4" opacity="0.8"/>
+    <text x="400" y="110" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">Google Cybersecurity</text>
+    <text x="400" y="130" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Professional</text>
+    <text x="400" y="150" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Certificate</text>
+    
+    <!-- Skills Matrix -->
+    <rect x="100" y="220" width="500" height="200" rx="10" fill="#2f3441" opacity="0.8"/>
+    <text x="350" y="245" text-anchor="middle" fill="#F1F1F1" font-family="Arial" font-size="18" font-weight="bold">Cybersecurity Skills</text>
+    
+    <!-- Skill bars -->
+    <g transform="translate(130, 270)">
+      <text x="0" y="15" fill="#F1F1F1" font-family="Arial" font-size="12">Python</text>
+      <rect x="80" y="5" width="300" height="12" rx="6" fill="#393e4d"/>
+      <rect x="80" y="5" width="270" height="12" rx="6" fill="#4E9AF1"/>
+      
+      <text x="0" y="40" fill="#F1F1F1" font-family="Arial" font-size="12">Linux</text>
+      <rect x="80" y="30" width="300" height="12" rx="6" fill="#393e4d"/>
+      <rect x="80" y="30" width="255" height="12" rx="6" fill="#4E9AF1"/>
+      
+      <text x="0" y="65" fill="#F1F1F1" font-family="Arial" font-size="12">SIEM Tools</text>
+      <rect x="80" y="55" width="300" height="12" rx="6" fill="#393e4d"/>
+      <rect x="80" y="55" width="240" height="12" rx="6" fill="#4E9AF1"/>
+      
+      <text x="0" y="90" fill="#F1F1F1" font-family="Arial" font-size="12">Network Security</text>
+      <rect x="80" y="80" width="300" height="12" rx="6" fill="#393e4d"/>
+      <rect x="80" y="80" width="270" height="12" rx="6" fill="#4E9AF1"/>
+      
+      <text x="0" y="115" fill="#F1F1F1" font-family="Arial" font-size="12">IDS/IPS</text>
+      <rect x="80" y="105" width="300" height="12" rx="6" fill="#393e4d"/>
+      <rect x="80" y="105" width="240" height="12" rx="6" fill="#4E9AF1"/>
+    </g>
+    
+    <!-- Shield Icon -->
+    <g transform="translate(550, 250)">
+      <path d="M25 10 L40 20 L40 45 C40 55 32 62 25 65 C18 62 10 55 10 45 L10 20 Z" fill="#4E9AF1" opacity="0.8"/>
+      <path d="M25 15 L35 22 L35 42 C35 48 30 52 25 54 C20 52 15 48 15 42 L15 22 Z" fill="#F1F1F1"/>
+      <text x="25" y="38" text-anchor="middle" fill="#1A1F2B" font-family="Arial" font-size="10" font-weight="bold">SEC</text>
+    </g>
+    
+    <!-- Title -->
+    <text x="350" y="40" text-anchor="middle" fill="#F1F1F1" font-family="Arial" font-size="24" font-weight="bold">Cybersecurity Portfolio</text>
+    <text x="350" y="480" text-anchor="middle" fill="#F1F1F1" font-family="Arial" font-size="16">Hands-on Security • Threat Analysis • SIEM • Network Security</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="portraitGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#02569b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0288d1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#portraitGrad3)"/>
+  
+  <!-- Face Shape -->
+  <ellipse cx="300" cy="250" rx="120" ry="140" fill="#deb887"/>
+  
+  <!-- Flutter-themed glasses -->
+  <circle cx="250" cy="220" r="35" fill="none" stroke="#40c4ff" stroke-width="4"/>
+  <circle cx="350" cy="220" r="35" fill="none" stroke="#40c4ff" stroke-width="4"/>
+  <line x1="285" y1="220" x2="315" y2="220" stroke="#40c4ff" stroke-width="4"/>
+  
+  <!-- Eyes with creative spark -->
+  <circle cx="250" cy="220" r="8" fill="#333"/>
+  <circle cx="350" cy="220" r="8" fill="#333"/>
+  <circle cx="248" cy="218" r="2" fill="#40c4ff"/>
+  <circle cx="348" cy="218" r="2" fill="#40c4ff"/>
+  
+  <!-- Nose -->
+  <path d="M300 240 L295 260 L300 265 L305 260 Z" fill="#cd853f"/>
+  
+  <!-- Enthusiastic smile -->
+  <path d="M275 295 Q300 320 325 295" fill="none" stroke="#333" stroke-width="3"/>
+  
+  <!-- Hair -->
+  <path d="M180 180 Q300 120 420 180 Q410 200 400 220 Q350 160 300 160 Q250 160 200 220 Q190 200 180 180" fill="#654321"/>
+  
+  <!-- Flutter logo reflection in glasses -->
+  <g transform="translate(250, 220) scale(0.3)">
+    <path d="M-20 -10 L0 10 L-10 20 L-30 0 Z" fill="#40c4ff"/>
+  </g>
+  <g transform="translate(350, 220) scale(0.3)">
+    <path d="M-20 -10 L0 10 L-10 20 L-30 0 Z" fill="#40c4ff"/>
+  </g>
+  
+  <!-- Flutter Expression -->
+  <text x="300" y="500" text-anchor="middle" fill="white" font-size="24" font-family="Arial">Flutter Mode</text>
+</svg>
